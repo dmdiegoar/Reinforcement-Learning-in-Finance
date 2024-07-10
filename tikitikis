@@ -1,0 +1,51 @@
+if es_bono="no":
+
+  if precio <= 1:
+    tiki=0.001
+  elif precio <= 5:
+    tiki=0.005
+  elif precio <= 10:
+    tiki=0.01
+  elif precio <= 50:
+    tiki=0.05
+  elif precio <= 100:
+    tiki=0.1
+  elif precio <= 250:
+    tiki=0.25
+  elif precio <= 500:
+    tiki=0.5
+  elif precio <= 1000:
+    tiki=1.0
+  elif precio <= 5000:
+    tiki=5.0
+  elif precio <= 10000:
+    tiki=10.0
+  elif precio <= 50000:
+    tiki=25.0
+  else:
+    tiki=50.0
+ 
+
+
+if es_bono="si":
+
+  if precio <= 50:
+    tiki=0.001
+  elif precio <= 100:
+    tiki=0.01
+  elif precio <= 500:
+    tiki=0.05
+
+  elif precio <= 1000:
+    tiki=0.1
+
+  elif precio <= 5000:
+    tiki=0.5
+
+  elif precio <= 10000:
+    tiki=1.0
+
+  elif precio <= 50000:
+    tiki=5.0
+  else:
+    tiki=10.0
